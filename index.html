@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 1200;
+            margin: 0;
+        }
+        
+        h5 {
+            color: darkgray;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        h4 {
+            font-size: 10px;
+        }
+        
+        p {
+            font-size: 10px;
+        }
+        
+        .biaoti {
+            width: 1080px;
+            position: relative;
+            height: 80px;
+            left: 197px;
+        }
+        
+        .mukewang {
+            width: 1080px;
+            height: 60px;
+            margin-left: 10px;
+        }
+        
+        .mukewang .phone {
+            position: absolute;
+            top: 30px;
+            left: 780px;
+        }
+        
+        .tel {
+            position: absolute;
+            left: 820px;
+            bottom: 25px;
+            font-family: "微软雅黑";
+            color: rgba(185, 185, 185, 0.83);
+            font-size: 14px;
+        }
+        
+        .number {
+            position: absolute;
+            left: 920px;
+            bottom: 20px;
+            font-size: 25px;
+            font-weight: lighter;
+            color: rgb(184, 31, 31);
+        }
+        
+        .daohang {
+            width: 1127px;
+            left: 197px;
+            background-color: #5e4b39;
+            line-height: 40px;
+            position: relative;
+            height: 40px;
+        }
+        
+        li {
+            display: inline;
+            list-style: none;
+            margin: 20px;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .search {
+            position: relative;
+            left: 800px;
+            top: -55px;
+            width: 80px;
+        }
+        
+        .sousuo {
+            position: relative;
+            bottom: 35px;
+            left: 140px;
+            width: 80px;
+        }
+        
+        .search {
+            left: 800px;
+            top: -55px;
+            width: 80px;
+            position: relative;
+        }
+        
+        a:hover {
+            color: rgb(100, 70, 13);
+        }
+        
+        .picture {
+            width: 1128px;
+            height: 400px;
+            position: relative;
+        }
+        
+        .list {
+            width: 1128px;
+            height: 400px;
+            list-style: none;
+            position: relative;
+            padding-left: 0px;
+        }
+        
+        .aa {
+            display: block;
+            width: 1128px;
+            height: 400px;
+        }
+        
+        .bb {
+            display: none;
+            width: 1128px;
+            height: 400px;
+        }
+        
+        .cc {
+            display: none;
+            width: 1128px;
+            height: 400px;
+        }
+        
+        .picture {
+            margin: 0 auto;
+        }
+        
+        .picture img {
+            width: 1128px;
+            height: 400px;
+            margin: 0 auto;
+            background-color: black;
+        }
+        
+        .new-word {
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .yemian {
+            width: 1200px;
+            margin-top: 10px;
+            display: flex;
+            position: relative;
+            height: 350px;
+        }
+        
+        .new {
+            width: 380px;
+            height: 310px;
+            left: 197px;
+            border: 1px solid darkgray;
+            position: absolute;
+            left: 210px;
+        }
+        
+        .new-img {
+            float: left;
+            margin: 0 5px;
+        }
+        
+        .new-img2 {
+            float: left;
+        }
+        
+        .new-img3 {
+            float: right;
+        }
+        
+        .kecheng {
+            width: 450px;
+            height: 310px;
+            border: 1px solid darkgray;
+            margin: 0 7px;
+            position: absolute;
+            left: 600px;
+        }
+        
+        .kecheng-img {
+            float: left;
+            margin: 0 5px;
+        }
+        
+        .kecheng-img2 {
+            float: right;
+        }
+        
+        .kecheng-ul {
+            font-size: 12px;
+        }
+        
+        .meiti {
+            width: 235px;
+            height: 310px;
+            border: 1px solid gray;
+            position: absolute;
+            left: 1080px;
+        }
+        
+        .meiti-img {
+            float: right;
+        }
+        
+        .buttom {
+            width: auto;
+            height: 300px;
+            background-color: #E8E8E8;
+            bottom: 0;
+            display: flexbox;
+        }
+        
+        .contain {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        
+        tr {
+            color: grey;
+        }
+        
+        td {
+            width: 100px;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--标题-->
+    <div class="biaoti">
+        <div class="mukewang">
+            <img src="images\logo.jpg">
+            <img class="phone" src="images\tel.jpg">
+        </div>
+        <div class="tel">24小时服务热线：</div>
+        <div class="number">123-456-7890</div>
+    </div>
+    <!--导航栏-->
+    <div class="daohang">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于慕课</a></li>
+            <li><a href="#">新闻动态</a></li>
+            <li><a href="#">课程中心</a></li>
+            <li><a href="#">在线课程</a></li>
+            <li><a href="#">人才招聘</a></li>
+        </ul>
+        <div class="search">
+            <div><input type="text"></div>
+            <div class="sousuo"><img src="images\search.jpg" height="18px"></div>
+        </div>
+    </div>
+
+    <!--轮播图-->
+    <div class="picture">
+        <img class="ad aa" src="images\ad3.jpg" alt="1">
+        <img class="ad bb" src="images\ad2.jpg" alt="2">
+        <img class="ad cc" src="images\ad4.jpg" alt="3">
+    </div>
+    <script type="text/javascript">
+        var index = 0;
+
+        function auto() {
+            index++;
+            var a = document.getElementsByClassName("ad");
+            if (index >= a.length)
+                index = 0;
+            for (var i = 0; i < a.length; i++) {
+                a[i].style.display = 'none';
+            }
+            a[index].style.display = 'block';
+        }
+        setInterval(auto, 2000);
+    </script>
+    <!--主布局-->
+    <div class="yemian">
+
+        <!--新闻-->
+        <div class="new">
+            <h5 style=" border-bottom: 1px solid darkgrey;">新闻中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="new-img3" src="images\more.jpg"></h5>
+
+            <img class="new-img" src="images\news.jpg">
+            <h5 style="color: red;font-weight: bold;">520&nbsp;慕女神喊你来表白!</h5>
+            <h4>活动时间：&nbsp;5月20日——5月25日</br>
+                获奖公布时间：&nbsp;5月26日
+                <p style="color: red;font-weight: lighter;">Learn More>>></p>
+            </h4>
+            <img class="new-img2" src="images\list.jpg">
+            <p class="new-word">【慕客访谈 用户篇】&nbsp;&nbsp;“有为屌丝”在路上&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-06-01</p>
+            <img class="new-img2" src="images\list.jpg">
+            <p class="new-word">【有奖活动】&nbsp;&nbsp;给父亲的三行书信&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-06-01</p>
+            <img class="new-img2" src="images\list.jpg">
+            <p class="new-word">《程序猿，请晒出你的童年》&nbsp;&nbsp;活动获奖公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-06-01</p>
+            <img class="new-img2" src="images\list.jpg">
+            <p class="new-word">【慕课访谈】&nbsp;&nbsp;破茧成蝶————美女程序员的蜕变&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-06-01</p>
+        </div>
+
+        <!--课程-->
+        <div class="kecheng">
+            <h5 style=" border-bottom: 1px solid darkgrey;">课程中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="kecheng-img2" src="images\more.jpg"></h5>
+            </hr>
+            <img class="kecheng-img" src="images\圆角.jpg" width=150px height=100px>
+            <h5 style="color:red;font-weight: bold;">CSS圆角进化论</h5>
+            <p>CSS圆角的实现，经历了三大发展阶段：背景图片方式、 CSS2.0+HTML标签模拟、CSS3.0圆角属性。本案例详细讲解每一种的实现方式， 并对实现的优缺点进行对比分析。
+            </p>
+            <ul class="kecheng-ul">
+                <li>PHP开发</li>
+                <li>前端开发</li>
+                <li>JAVA开发</li>
+                <li>Andriod开发</li>
+            </ul>
+        </div>
+
+        <!--媒体-->
+        <div class="meiti">
+            <h5 style=" border-bottom: 1px solid darkgrey;">媒体聚焦&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="meiti-img" src="images\more.jpg"></h5>
+            <img src="images\imooc.png" width=200px height=150px>
+            <img src="images\app.jpg">
+        </div>
+
+
+    </div>
+
+
+
+    <!--底部-->
+    <div class="buttom">
+        <div class="contain" align="center">
+            <table>
+                <tr>
+                    <th>关于</th>
+                    <th>课程</th>
+                    <th>关注</th>
+                    <th>留言</th>
+                    <th><img src="images\weixin.png">微信关注</br>
+                    </th>
+                </tr>
+                <tr>
+                    <td>品牌故事</td>
+                    <td>PHP开发</td>
+                    <td>新浪微博</td>
+                    <td>意见反馈</td>
+                    <td><img src="images\qrcode.jpg"></td>
+                </tr>
+                <tr>
+                    <td>联系我们</td>
+                    <td>前端开发</td>
+                    <td>腾讯微博</td>
+                    <td>问题留言</td>
+                </tr>
+                <tr>
+                    <td>加入我们</td>
+                    <td>JAVA开发</td>
+                    <td>企业微信</td>
+                    <td>媒体联络</td>
+                </tr>
+                <tr>
+                    <td>版权声明</td>
+                    <td>Andriod开发</td>
+                    <td>QQ空间</td>
+                    <td>在线客服</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
